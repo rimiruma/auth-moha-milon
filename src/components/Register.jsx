@@ -35,13 +35,13 @@ const Register = () => {
             <form onSubmit={handleRegister} className="card-body">
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text">Name</span>
                 </label>
                 <input type="text" name="name" placeholder="Your Name" className="input input-bordered" required />
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Name</span>
+                  <span className="label-text">Email</span>
                 </label>
                 <input type="email" name="email" placeholder="email" className="input input-bordered" required />
               </div>
